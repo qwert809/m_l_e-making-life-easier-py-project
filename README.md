@@ -1,3 +1,7 @@
+print("Powered BY CatBet123")
+print("GitHub Community")
+print("11.12.2024  \nnm<12>core\n")
+
 # m_l_e-making-life-easier-py-project
 
 #Function pri_
