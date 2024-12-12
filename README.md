@@ -39,8 +39,8 @@ def if_(a, b, c):
     return msd
 #The if_ function compares the values of a and c according to the operator b (<, >, =, !). It returns True if the condition is met, or False otherwise.
 
-Class do
-python
+#Class do
+#python
 class do():
     global rm
     rm = {}
@@ -60,6 +60,7 @@ class do():
             return(True)
         else:
             return(None)
+            
 #The do class manages an associative array rm.
 
 #new(new, zn = None): creates a new variable new in the rm array with the value zn.
