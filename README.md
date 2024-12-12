@@ -9,10 +9,10 @@ def pri_(pr = "",parameter = None ):
         print(pr)
     else:
         print(pr,"                  |$",parameter )
+        
 #The pri_ function prints the pr string. If parameter equals "$cl", it adds " |$ console log " text. If parameter is not provided, it only prints pr. Otherwise, it adds " |$" and the value of parameter.
 
-#Function if_
-python
+
 def if_(a, b, c):
     if b == "<": 
         if a <= c:
@@ -37,6 +37,7 @@ def if_(a, b, c):
     else:
         msd = None
     return msd
+    
 #The if_ function compares the values of a and c according to the operator b (<, >, =, !). It returns True if the condition is met, or False otherwise.
 
 #Class do
@@ -62,13 +63,8 @@ class do():
             return(None)
             
 #The do class manages an associative array rm.
-
 #new(new, zn = None): creates a new variable new in the rm array with the value zn.
-
 #edit(what, zn): changes the value of the variable what to zn.
-
 #get(what): returns the value of the variable what. If what is equal to "$all$", it returns the entire rm array.
-
 #delit(what): deletes the variable what from the rm array.
-
 #are_yes(what): returns True if the variable what exists in the rm array, or None if it does not.
